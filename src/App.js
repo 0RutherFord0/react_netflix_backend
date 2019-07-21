@@ -1,17 +1,17 @@
 import React from 'react';
-import App from './netflix/Home'
-// import './App.css';
 
-function Apps() {
+import Navbar from './navbar/Navbar';
+import Movies from './movies/Movies';
+import Banner from './banner/Banner';
+
+const App = () => {
   return (
-      <div>
-
-
-
-
-      </div>
-
-  );
+    <>
+      <Navbar />
+      <Banner />
+      <Movies />
+    </>
+  )
 }
 
-export default Apps;
+export default App;
