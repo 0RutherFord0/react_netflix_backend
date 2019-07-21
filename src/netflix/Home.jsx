@@ -20,7 +20,7 @@ class App extends React.Component {
       <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
         <Menu.Item key="mail">
           <Icon type="mail" />
-          Navigation One
+          Movie
         </Menu.Item>
         <Menu.Item key="app" disabled>
           <Icon type="appstore" />
